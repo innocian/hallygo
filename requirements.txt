@@ -1,3 +1,6 @@
-streamlit
+streamlit>=1.40
+requests
 pandas
 plotly
+folium
+streamlit-folium
