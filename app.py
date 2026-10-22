@@ -207,7 +207,7 @@ with st.sidebar:
     st.caption("원하는 지역과 테마를 골라 맞춤 여행지를 찾아보세요.")
     selected_sigungu = st.selectbox('📍 시·군 선택', ['전체'] + sorted(SIGUNGU))
     selected_type = st.selectbox('🏷️ 관광 테마', ['전체'] + list(TYPE_NAMES.values()) + ['기타'])
-    keyword = st.text_input('🔍 여행지명 검색', placeholder='예: 오동도, 죽녹원')
+    keyword = st.text_input('🔍 여행지명 검색', placeholder='예: 식당, 호스텔, 해수욕장')
     st.markdown("---")
     st.caption("자료 출처: 한국관광공사 TourAPI 4.0")
 
